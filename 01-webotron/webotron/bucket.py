@@ -6,7 +6,7 @@ from functools import reduce
 import boto3
 from botocore.exceptions import ClientError
 from hashlib import md5
-import util
+from webotron import util
 class BucketManager:
     """Manage an S3 Bucket."""
     CHUNK_SIZE = 8388608
